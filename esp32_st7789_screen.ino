@@ -1,4 +1,4 @@
-#include <TFT_eSPI.h>  // Hardware-specific library
+#include <TFT_eSPI.h>  // Local library in sketch folder
 #include <SPI.h>
 
 TFT_eSPI tft = TFT_eSPI();  // Custom pins from User_Setup.h
