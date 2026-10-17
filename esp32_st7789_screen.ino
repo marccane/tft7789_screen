@@ -8,7 +8,7 @@ void setup() {
   Serial.println("ST7789 Hardware SPI Test!");
 
   tft.init();
-  tft.setRotation(1);       // 0-3 if image is sideways/upside-down
+  tft.setRotation(3);       // 0-3 if image is sideways/upside-down
 
   // --- Test Pattern ---
 
